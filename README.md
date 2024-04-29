@@ -1,6 +1,8 @@
 to run this program please install
 pip install ultralytics
 
+the model will start when there is Area selected, please press S and select the Beyblade arena. 
+
 1.	Model selection: YOLOv8
 I am using YOLOv8 for high FPS detection and good accuracy model. YOLOV8 from Ultralytics is easy to train, and inference. The data i trained on is from BeyBlade video from YouTube. The labelling process is divide into two steps:
 •	First: Label manual all extracted frames using LabelImg, and then train YOLOv8 model using labelled images.
