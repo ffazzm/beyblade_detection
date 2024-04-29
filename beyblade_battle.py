@@ -15,11 +15,9 @@ def is_inside(inner_box, outer_box):
     inner_left, inner_top, inner_right, inner_bottom = inner_box
     outer_left, outer_top, outer_right, outer_bottom = outer_box
 
-    # Calculate center coordinates of inner box
     inner_center_x = (inner_left + inner_right) / 2
     inner_center_y = (inner_top + inner_bottom) / 2
 
-    # Check if the center of the inner box is inside the outer box
     return (
         outer_left <= inner_center_x <= outer_right and
         outer_top <= inner_center_y <= outer_bottom
